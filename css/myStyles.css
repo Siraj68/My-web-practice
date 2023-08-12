@@ -10,6 +10,13 @@ h1 {
    margin-left: 80px;
    text-align: center;
 }
+
+h2 {
+   color: #c01229 ;
+   margin-left: 80px;
+   text-align: center;
+}
+
 nav{
    background-color: #c49f26 ;
    height: 40px;
