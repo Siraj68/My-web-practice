@@ -3,7 +3,7 @@ body{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    width: 1000px;
    margin: auto;
-   background-color: #daacba;
+   background-color: #e2e0ee;
 }
 h1 {
    color: #c01229 ;
@@ -18,7 +18,7 @@ h2 {
 }
 
 nav{
-   background-color: #c49f26 ;
+   background-color: #3a405e ;
    height: 40px;
    padding-bottom: 20px;
 }
@@ -48,7 +48,7 @@ section {
 
 footer {
    clear: both;
-   background-color: #c49f26;
+   background-color: #3a405e;
    color: rgb(219, 78, 172);
    height: 30px;
    text-align: center;
@@ -88,3 +88,13 @@ h3 {
    color: #c01229 ;
    margin-left: 80px;
    text-align: center;
+}
+img.item{
+transition: transform 0.25s ease;  
+}
+
+
+img:hover.item{
+-webkit-transform: scale(2);
+transform:scale(2)
+}
